@@ -9,46 +9,31 @@
   font-style: normal;
 }
 
-.devicons_1 {
+.devicons {
   font-family: 'devicons';
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+    line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.devicons_font_1 {
   line-height: 0.7;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-size: 6em;
 }
-.devicons_2 {
-  font-family: 'devicons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 0.58;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.devicons_font_2 {
+  line-height: 0.6;
   font-size: 6em;
 }
-
-.devicons_3 {
-  font-family: 'devicons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 0.58;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.devicons_font_3 {
+  line-height: 0.55;
   font-size: 7em;
 }
+
 
 .devicons-git:before {
   content: "\e602";

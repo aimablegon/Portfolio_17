@@ -185,7 +185,13 @@ h1, h2, h3, h4, h5, h6 {
     top: -5px;
     width: 40px;
 }
-
+.border_2{
+    border-top: 1px solid #fff;
+    height: 1px;
+    margin: 15px auto 30px;
+    position: relative;
+    width: 60%;
+}
 .title {
     padding-bottom: 60px;
 }
@@ -1092,7 +1098,12 @@ h1, h2, h3, h4, h5, h6 {
 .con-info span {
 	margin: -5px 0 0 15px;
 }
-
+.con-info .foot_info{
+  float:none;
+}
+.foot_git{
+  font-size: 16px;
+}
 .error {
     display: none;
     padding: 10px;
